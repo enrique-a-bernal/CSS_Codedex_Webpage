@@ -21,23 +21,38 @@ img{
     border: 5px dashed black;
 }
 
-p{
-    background-color: 90EE90;
-}
 
 a{
     font-weight: bold;
 }
 
+.formheader{
+    text-align: center;
+    align-items: center;
+}
+
 div.contactform{
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: max-content max-content;
-    grid-gap:5px;
-    text-align:right;
-    border: 10px solid black;
-    width: 300px;
-    height: 300px;
-    
+    margin: 10px;
+    border: 1px solid black;
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
 }    
 div.contactform label{ text-align:right; }
+
+.space{
+    font-size: 14px;
+    background: lightgrey;
+}
+
+.submit {
+  width: 30vw;
+  align-self: center;
+  background-color: green;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  font-weight: 600;
+}
